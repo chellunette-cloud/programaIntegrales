@@ -1,0 +1,16 @@
+# Dependencias del Resolutor de Integrales Múltiples
+#
+# Instalación:   pip install -r requirements.txt
+#
+# Versiones probadas en Python 3.14 (Windows 11).
+
+sympy>=1.12,<2           # Motor de cálculo simbólico (integrales, simplificación)
+scipy>=1.10              # Integración numérica (verificación y respaldo)
+numpy>=1.24              # Cálculo numérico y generación de mallas para las gráficas
+matplotlib>=3.7          # Gráficas 2D/3D y exportación a PDF
+streamlit>=1.30          # Interfaz gráfica web
+pandas>=2.0              # Utilidades de tablas (incluida con Streamlit)
+
+# Opcionales:
+# pillow>=10              # Necesario únicamente para el OCR desde una imagen
+# pytesseract>=0.3.10     # OCR opcional (requiere Tesseract-OCR instalado en el sistema)

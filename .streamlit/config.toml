@@ -1,0 +1,13 @@
+# Configuración de la aplicación Streamlit.
+# Se aplica tanto en local como desplegada en Streamlit Community Cloud.
+
+[theme]
+primaryColor = "#1f3b73"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[browser]
+# No enviar estadísticas de uso anónimas.
+gatherUsageStats = false
